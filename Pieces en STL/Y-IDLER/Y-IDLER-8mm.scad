@@ -1,8 +1,11 @@
+use("../../util/convert.scad");
+
 import("Y-IDLER.stl"); // original part
 
 // Constant for our rod size in mm. If using SAE rods, you'll need to do the
 // conversion yourself. Currently can't deal with pieces larger than 10mm
-// (which is the original size). 
+// (which is the original size), which is about 3/8" or 25/64" 
+// use inToMm() to convert from inches.
 
 rod_size_in_mm=8;
 rod_size = rod_size_in_mm ;
