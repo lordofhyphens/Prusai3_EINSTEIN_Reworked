@@ -1,6 +1,19 @@
-Prusa i3 EINSTEIN Reworked
+Prusa i3 EINSTEIN Reworked -- 8MM
 =========================
-Page de présentation sur [reprap.org](http://reprap.org/wiki/Prusa_i3_Rework).
+This is a slightly modified version of the STLs for eMotion-Tech's Prusa i3 EINSTEIN Rework. Still a work in progress.
+
+An overview of the design is at [reprap.org](http://reprap.org/wiki/Prusa_i3_Rework).
+
+What's different from the Prusa i3 EINSTEIN Rework?
+
+* SCAD files provide limited parametric capabilities, allowing the holes in the parts to be a different size than the original i3 EINSTEIN. 
+* Y Corner "snaps" nicely to the bed rods.
+
+I've found that at least with the printer I was using, the holes did need to be reamed out. 
+
+These design modifications, being a derivative of the eMotionTech, are under the GPL license. 
+
+(original README continues below) 
 
 La machine ainsi que la notice de montage est régie par une licence GPL comme pour les autres machines RepRap. 
 
